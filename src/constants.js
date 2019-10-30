@@ -1,0 +1,1 @@
+export const ghLink = "https://github.com/fadziljusri/netlify-faunadb-todo";
