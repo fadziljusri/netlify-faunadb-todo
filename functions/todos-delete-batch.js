@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 /* Import faunaDB sdk */
 const faunadb = require('faunadb')
 

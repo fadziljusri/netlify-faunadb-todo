@@ -14,7 +14,7 @@
         name: "ListItem",
         props: {
             id: {
-                type: Number,
+                type: [Number, String],
                 default: 0
             },
             text: {

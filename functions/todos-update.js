@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const faunadb = require('faunadb')
 const getId = require('./utils/getId')
 

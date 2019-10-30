@@ -6,14 +6,14 @@ const create = (data) => {
         body: JSON.stringify(data),
         method: 'POST'
     }).then(response => {
-        console.log("create", response);
+        // console.log("create", response);
         return response.json()
     })
 }
 
 const readAll = () => {
     return fetch('/.netlify/functions/todos-read-all').then((response) => {
-        console.log("readAll", response);
+        // console.log("readAll", response);
         return response.json()
     })
 }
